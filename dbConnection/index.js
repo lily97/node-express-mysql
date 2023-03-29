@@ -60,6 +60,6 @@ app.use('/static', express.static('public'));
 
 app.use(router)
 
-app.listen(8081, () => { console.log('server run at 8081'); });
+app.listen(8080, () => { console.log('server run at 8080'); });
 
 exports.query = query
